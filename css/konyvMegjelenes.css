@@ -1,0 +1,65 @@
+body {
+   margin: 0; 
+   padding: 0;
+   background-image: url("../images/konyv_hatter.jpg");
+   background-size: 500px 500px;
+   background-attachment: fixed;
+}
+
+.outer-border {
+   background-color: #CA8;
+   border: 2px solid #ECA;
+   width: 720px;
+   margin: 0 auto;
+}
+
+.book-container {
+   background-color: #ECA;
+   border: 1px solid #432;
+   border-radius: 2px;
+   margin: 15px;
+}
+
+.book-cover {
+   float: left; 
+   width: 120px;
+   padding: 15px;
+}
+
+.book-icon {
+   float: right;
+   width: 102px;
+   margin-top: 85px;
+}
+
+.writer {
+   font-weight: bold;
+}
+
+.title {
+   font-weight: bold;
+   text-transform: uppercase;
+   margin: 10px;
+   white-space: nowrap;
+}
+
+.publisher {
+   margin: 25px;
+   font-size: 0.9em;
+}
+
+.book-description {
+   clear: both;
+   padding: 15px;
+   text-align: justify;
+   font-size: 0.85em;
+}
+
+.highlight {
+   font-weight: bold;
+   letter-spacing: 2px;
+}
+
+h1, h2 {
+   text-align: center;
+}
